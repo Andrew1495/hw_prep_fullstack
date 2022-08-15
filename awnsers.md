@@ -31,6 +31,7 @@ The Server is responsible for committing changes to the database and sending tha
 
 ## Extension
 
-Database can be very big need very big unquie id to identify diffrent documents stored in database otherwise very confusing.
+9. We use objectID constructor so we can identify each document on the database through a unique property that no others will share. 
+
 
 ![Flow of data for games_app ](img/dataflowdel.png)
